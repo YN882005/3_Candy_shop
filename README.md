@@ -3,7 +3,9 @@
 
 # How to such project:
 Inventory & basket: Store stock in Candy_t shelf structs and active orders in Line_t basket entries.  
+
 Array management: Search existing lines during addToBasket() to consolidate duplicate items. When removing items in removeFromBasket(), shift higher array elements down to prevent holes.  
+
 Change calculation: Use greedy integer division in giveChange() across 500, 200, 100, 50, and 25 piastre coin denominations.
 
 # Answer to why question: 
